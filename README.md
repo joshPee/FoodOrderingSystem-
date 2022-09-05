@@ -1,2 +1,4 @@
 # FoodOrderingSystem-
-New Repo
+Database Username=admin
+Database passsword = admin
+
