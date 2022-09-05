@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.effect.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<VBox maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="581.0" prefWidth="905.0" style="-fx-background-color: #A52A2A;" xmlns="http://javafx.com/javafx/11.0.14-internal" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.demo.MainDashboardController">
+   <children>
+      <AnchorPane prefHeight="135.0" prefWidth="905.0" style="-fx-background-color: WHITE;">
+         <children>
+            <Button fx:id="btnLogin" layoutX="721.0" layoutY="37.0" mnemonicParsing="false" onAction="#onBtnLoginClick" prefHeight="29.0" prefWidth="81.0" style="-fx-background-color: WHITE;" text="Log In" textFill="ORANGE">
+               <font>
+                  <Font name="System Bold" size="12.0" />
+               </font></Button>
+            <Label layoutX="323.0" layoutY="-1.0" prefHeight="61.0" prefWidth="315.0" text="HOME FOOD" textFill="ORANGE">
+               <font>
+                  <Font name="Arial Rounded MT Bold" size="43.0" />
+               </font>
+            </Label>
+            <Label layoutX="398.0" layoutY="62.0" prefHeight="17.0" prefWidth="124.0" text="YOU GO SATY....." textFill="ORANGE">
+               <font>
+                  <Font name="System Bold" size="12.0" />
+               </font></Label>
+            <ImageView fitHeight="142.0" fitWidth="198.0" layoutX="14.0" layoutY="-12.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@image/LOGO.jpg" />
+               </image>
+            </ImageView>
+         </children></AnchorPane>
+      <AnchorPane prefHeight="497.0" prefWidth="905.0" style="-fx-background-color: #ffa500;">
+         <children>
+            <TextField alignment="CENTER" layoutX="298.0" layoutY="24.0" prefHeight="7.0" prefWidth="293.0" promptText="Search Here">
+               <font>
+                  <Font size="21.0" />
+               </font>
+               <effect>
+                  <MotionBlur />
+               </effect>
+            </TextField>
+            <Pane layoutX="139.0" layoutY="87.0">
+               <children>
+                  <ImageView fitHeight="133.0" fitWidth="180.0" layoutX="9.0" layoutY="9.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@image/picture1.png" />
+                     </image>
+                     <effect>
+                        <DropShadow />
+                     </effect>
+                  </ImageView>
+                  <Button fx:id="btnAdd1" layoutX="20.0" layoutY="153.0" mnemonicParsing="false" onAction="#setOnAddClick" prefHeight="25.0" prefWidth="47.0" text="ADD" textFill="BROWN" />
+                  <Label layoutX="72.0" layoutY="157.0" text="\$4.00" textFill="WHITE" />
+               </children>
+            </Pane>
+            <Pane layoutX="368.0" layoutY="86.0">
+               <children>
+                  <ImageView fitHeight="133.0" fitWidth="180.0" layoutX="9.0" layoutY="9.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@image/picture2.png" />
+                     </image>
+                     <effect>
+                        <DropShadow />
+                     </effect>
+                  </ImageView>
+                  <Button fx:id="btnAdd2" layoutX="20.0" layoutY="153.0" mnemonicParsing="false" onAction="#setOnAddClick" prefHeight="25.0" prefWidth="47.0" text="ADD" textFill="BROWN" />
+                  <Label layoutX="72.0" layoutY="157.0" text="\$5.00" textFill="WHITE" />
+               </children>
+            </Pane>
+            <Pane layoutX="144.0" layoutY="278.0">
+               <children>
+                  <ImageView fitHeight="133.0" fitWidth="180.0" layoutX="9.0" layoutY="9.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@image/picture4.png" />
+                     </image>
+                     <effect>
+                        <DropShadow />
+                     </effect>
+                  </ImageView>
+                  <Button fx:id="btnAdd4" layoutX="20.0" layoutY="153.0" mnemonicParsing="false" onAction="#setOnAddClick" prefHeight="25.0" prefWidth="47.0" text="ADD" textFill="BROWN" />
+                  <Label layoutX="72.0" layoutY="157.0" text="\$3.00" textFill="WHITE" />
+               </children>
+            </Pane>
+            <Pane layoutX="370.0" layoutY="277.0">
+               <children>
+                  <ImageView fitHeight="133.0" fitWidth="180.0" layoutX="9.0" layoutY="9.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@image/picture5.png" />
+                     </image>
+                     <effect>
+                        <DropShadow />
+                     </effect>
+                  </ImageView>
+                  <Button fx:id="btnAdd5" layoutX="20.0" layoutY="153.0" mnemonicParsing="false" onAction="#setOnAddClick" prefHeight="25.0" prefWidth="47.0" text="ADD" textFill="BROWN" />
+                  <Label layoutX="72.0" layoutY="157.0" text="\$5.00" textFill="WHITE" />
+               </children>
+            </Pane>
+            <Pane layoutX="592.0" layoutY="76.0">
+               <children>
+                  <ImageView fitHeight="138.0" fitWidth="164.0" layoutX="-8.0" layoutY="19.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@image/picture3.png" />
+                     </image>
+                     <effect>
+                        <DropShadow />
+                     </effect>
+                  </ImageView>
+                  <Button fx:id="btnAdd3" layoutX="20.0" layoutY="164.0" mnemonicParsing="false" onAction="#setOnAddClick" prefHeight="25.0" prefWidth="47.0" text="ADD" textFill="BROWN" />
+                  <Label layoutX="72.0" layoutY="168.0" text="\$7.00" textFill="WHITE" />
+               </children>
+            </Pane>
+            <Pane layoutX="585.0" layoutY="277.0">
+               <children>
+                  <ImageView fitHeight="133.0" fitWidth="180.0" layoutX="9.0" layoutY="9.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@image/picture6.png" />
+                     </image>
+                     <effect>
+                        <DropShadow />
+                     </effect>
+                  </ImageView>
+                  <Button fx:id="btnAdd6" layoutX="20.0" layoutY="153.0" mnemonicParsing="false" onAction="#setOnAddClick" prefHeight="25.0" prefWidth="47.0" text="ADD" textFill="BROWN" />
+                  <Label layoutX="72.0" layoutY="157.0" text="\$8.00" textFill="WHITE" />
+               </children>
+            </Pane>
+            <Button fx:id="btnConfirm" layoutX="816.0" layoutY="430.0" mnemonicParsing="false" onAction="#onBtnConfirmClick" prefHeight="25.0" prefWidth="78.0" text="Confirm" textFill="BROWN" />
+         </children>
+      </AnchorPane>
+   </children>
+</VBox>
